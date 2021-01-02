@@ -1,6 +1,7 @@
 #! env python
 # -*- coding: utf-8 -*-
 import PySimpleGUI as sg
+import os
 
 
 class MainForm:
@@ -10,14 +11,18 @@ class MainForm:
 
     def __init__(self) -> None:
         super().__init__()
-        sg.theme("Dark Brown")
+        sg.theme("SystemDefault")
 
     def show(self):
         """
         docstring
         """
+        image_path = os.path.join(os.getcwd(), "assets/mai.png")
+        print(os.getcwd())
+
         layout = [
             [sg.Text("これは PySimpleGUI を使ったサンプルプログラムです.")],
+            [sg.Image(filename=image_path)],
             [sg.Button("Quit", size=(15, 1)), sg.Button("OK", size=(15, 1))],
         ]
 
