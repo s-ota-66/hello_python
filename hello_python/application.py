@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
+from hello_python.landmark import Forest, Landmark
 from hello_python.main_form import MainForm
 
 

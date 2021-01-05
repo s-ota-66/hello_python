@@ -1,12 +1,12 @@
 #! env python
 # -*- coding: utf-8 -*-
+"""
+  main.py
+   Forest Notes
 
-# ${PROJECT_NAME}.${NAME}
-# Date: ${YEAR}/${MONTH}/${DAY}
-# Filename: ${NAME}
+  Created by Seiji Ota on 2021/01/2.
 
-__author__ = "$USER"
-__date__ = "${YEAR}/${MONTH}/${DAY}"
+"""
 
 
 from hello_python.application import Application
