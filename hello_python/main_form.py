@@ -43,7 +43,7 @@ class MainForm:
         image_path = os.path.join(os.getcwd(), "assets/mai.png")
         print(os.getcwd())
         layout = [
-            [sg.Text("これは PySimpleGUI を使ったサンプルプログラムです.")],
+            [sg.Text("これは PySimpleGUI を使ったサンプルプログラムです.")],
             [sg.Image(filename=image_path, key="-IMAGE-")],
             [
                 sg.Listbox(**self.__list_box_style),
